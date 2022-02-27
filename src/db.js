@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-const sequelize = new Sequelize(`postgres://phaiqkpehdkorr:cfe367df9b2e297d3c9adc0e2b01978b8c9205f450d0f520f390a4afdc4f83b5@ec2-54-209-221-231.compute-1.amazonaws.com:5432/dbs8qiharvu2mr`,
+const sequelize = new Sequelize(`postgres:/`,
     {
         logging: false, // set to console.log to see the raw SQL queries
         native: false,
